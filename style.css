@@ -1,0 +1,317 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+/* display: inline-block; */
+font-family: 'Bai Jamjuree', sans-serif;
+font-size: 18px;
+background-image: url(images/bg-header-desktop.png);
+background-repeat: no-repeat;
+background-size: contain;
+}
+.intro{
+    margin:auto;
+    text-align: center;
+}
+#logo{
+    margin:auto;
+    margin-top: 100px;
+}
+.intro h1{
+    color: 	#4c545d;
+    font-size: 46px;
+}
+.intro p{
+    color: 	#9fabb2;
+    font-size: 20px;
+    line-height: 30px;
+}
+.download1, .download2{
+    height: 50px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 50px;
+    border:none;
+    box-shadow: 0 10px 6px -6px #777;
+}
+.download1{
+    background-color:	#26baa4;
+    color:white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight:600;
+    margin-right: 10px;
+    margin-top: 20px;
+   
+}
+.download2{
+    background-color:#6173ff;
+    color:white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight:600;
+    margin-top: 20px;
+}
+.download1:hover{
+    background-color:	#26baa4;
+    color:white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight:600;
+    margin-right: 10px;
+    border: 1px solid #26baa4;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+}
+.download2:hover{
+    background-color:#6173ff;
+    color:white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight:600;
+    border: 1px solid #6173ff;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+}
+.content1{
+    margin-top: 160px;
+    text-align: center;
+}
+.content1 h2{
+    color: 	#4c545d;
+    font-size: 40px;
+}
+.content1 p{
+    color: 	#9fabb2;
+    font-size: 20px;
+    line-height: 30px;
+}
+.content2{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 80px;
+}
+
+.types{
+    margin-left: 110px;
+    width: 25%;
+    text-align: left;
+}
+.image1{
+    margin-left: -33px;
+}
+.types h3{
+    color: 	#4c545d;
+    margin-bottom: 10px;
+}
+.types p{
+    color: 	#9fabb2;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.content3{
+    text-align: center;
+    margin-top:160px;
+}
+.content3 h2{
+    color: 	#4c545d;
+    font-size: 40px;
+}
+.content3 p{
+    color: 	#9fabb2;
+    font-size: 20px;
+    line-height: 30px;
+}
+.image2{
+    margin-top: 100px;
+}
+#title{
+    color: 	#4c545d;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+#paragraph{
+    color: 	#9fabb2;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.content4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card-workflow{
+    display:flex;
+    width: 28%;
+    height: 200px;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.card-workflow h3{
+    margin-top: 10px;
+    color: 	#4c545d;
+    font-size: 24px; 
+}
+.card-workflow img{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    /* width: */
+}
+.card-workflow p{
+    color: 	#9fabb2;
+    font-size: 18px;
+    line-height: 30px;
+}
+.logos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+}
+.logos img{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    
+}
+.logolist{
+    white-space: nowrap;
+}
+.logolist > li{
+    margin: 20px;
+  padding: 30px;
+    list-style: none;
+    display: inline;
+}
+.content5{
+    margin-top: 150px;
+    text-align: center;
+}
+.content5 h2{
+    color: 	#4c545d;
+    font-size: 40px;
+}
+.content5 p{
+    color: 	#9fabb2;
+    font-size: 20px;
+    line-height: 30px;
+}
+footer{
+    margin-top: 150px;
+    padding: 25px;
+    background-color: #f5f6f8;
+    width: auto;
+} 
+.itemsfooter{
+    display:inline;  
+    margin-top: 100px;
+}
+#listItems{
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+    margin-top: 100px;
+    color: #4c545d;
+    font-weight: 400;
+    font-size: 16px;
+}
+#footerlogo{
+    width: 50%;
+}
+.social{
+    text-align: center;
+}
+.socialicons > li{
+    padding: 15px;
+    list-style-type:none;
+    display: inline;
+    color:  #4c545d;
+}
+@media only screen and (max-width: 320px){
+    .intro h1{
+        font-size: 36px;
+        margin: 5px;
+        margin-top: 40px;
+    }
+    .intro p{
+        font-size: 16px;
+    }
+    .download1{
+        width: 260px;
+    }
+    .download2{
+        width: 260px;
+    }
+    .content1 h2{
+        font-size: 28px;
+    }
+    .content1 p{
+        font-size: 16px;
+    }
+    .image1{
+        width: 80%;
+        margin: auto;
+        
+    }
+    .content2{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    } */
+    .types{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    img.image2{
+        width: 80%;
+    }
+    .content3 h2{
+        font-size: 28px;
+    }
+    .content3 p{
+        font-size: 16px;
+    }
+    h2#title{
+        font-size: 28px;
+    }
+    #paragraph{
+        font-size: 16px;
+    }
+    .card-workflow h3{
+        font-size: 16px;
+    }
+    .card-workflow p{
+        font-size: 14px;
+    }
+    .logolist > li{
+        display:grid;
+    }
+    .logolist{
+        margin-top: 80px;
+    }
+    .content5 h2{
+        font-size: 28px;
+    }
+    .content5 p{
+        font-size: 16px;
+    }
+    ul#listItems{
+        display: grid;
+        text-align: center;
+    }
+}
